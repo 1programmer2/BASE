@@ -32,7 +32,7 @@ class Player():
         self.name = name
         self.Hand = Hand
 
-
+# someone commentary
 
 ## INTRO ##
 deck = []
