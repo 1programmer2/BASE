@@ -25,7 +25,7 @@ class Hand():
         for x in self.cards[::-1]:
             rank = x[1]
             return rank_value[rank]
-
+# see what on hands
 
 class Player():
     def __init__(self,name,Hand):
@@ -107,3 +107,4 @@ if player_score and dealer_score != 21:
                     print("Dealer has a total higher than 21 and has also lost the game")
                     print("Neither player has won")
                     break
+# checking for exceeding 21
