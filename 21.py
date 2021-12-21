@@ -12,7 +12,7 @@ class Deck():
 
     def remove_from_deck(self):
         self.allcards.pop(0)
-
+# give cards
 
 class Hand():
     def __init__(self,cards):
@@ -61,7 +61,7 @@ while n<3:
         print(name + " has 21 and has won the game!")
         break
     n = n + 1
-
+# Distribution of cards
 if player_score != 21:
     n = 1
     while n<3:
