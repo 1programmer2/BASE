@@ -38,9 +38,9 @@ class Player():
 deck = []
 deck_cards = Deck()
 deck.extend(deck_cards.allcards)
+#create deck
 print("New deck created")
 random.shuffle(deck)
-# create deck
 # Creating the Players
 dealer = Player('Dealer', Hand([]))
 name = input("What is your name? ")
